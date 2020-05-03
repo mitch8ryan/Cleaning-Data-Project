@@ -1,0 +1,29 @@
+---
+title: "Codebook"
+author: "Mitch Ryan"
+date: "5/3/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# The script Run_analysis is used to clean up the messy data that was collected using wearable technology. 
+# The dplyr package is required, and there is a line that installs it if not previously installed. 
+# The bulk of our code is 4 functions, which all work together to clean our data
+
+# The first is Variable_cleaner which uses gsub and other string methods to alter our variable names
+
+# Load_data loads in our data. The main use of the function is to navigate the various file titles in the 
+# zipped dataset
+
+# Clean_wd is a small little function that sets the working directory, which is important because we need
+# to be working in the same place as the files
+
+# DownloadData grabs the zip file from the web, and unzips it
+
+# After the functions are all written, we use them to create our 2 tables, the full table "Data"
+# and our summarized table
+
+
+
