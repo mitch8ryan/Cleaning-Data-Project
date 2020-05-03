@@ -1,0 +1,12 @@
+---
+title: "ReadMe"
+author: "Mitch Ryan"
+date: "5/3/2020"
+output: html_document
+---
+
+# This repository contains 2 files, run_analysis and Codebook
+
+# run_analysis is the R script that turns the zipped data from the web into a tidy dataset
+
+# Codebook is a Markdown file which explains the processes of run_analysis
